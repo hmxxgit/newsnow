@@ -6,3 +6,8 @@ compatibility_date = "2024-10-03"
 binding = "NEWSNOW_DB"
 database_name = "newsnow_db"
 database_id = "c1687981-cb14-4290-b4f7-1ee3ff4e9a91"
+
+# wrangler.toml
+[[routes]]
+pattern = "/41083980baf41c210bbcccb772a1a49d.txt"
+custom_headers = { "Content-Type" = "text/plain" }
